@@ -29,7 +29,7 @@ Create an application that players can answer timed questions and have their hig
 >*THEN* I can save my initials and score
 
 ### Refactored Webpage Screenshot
-![Website Screenshot]("")
+![Website Screenshot](https://github.com/marioessig/quizzinator/blob/master/assets/images/Quizzinator.gif)
 
 ### Links:
 [Deployed Application URL]("")
