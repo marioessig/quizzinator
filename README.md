@@ -34,4 +34,4 @@ Create an application that players can answer timed questions and have their hig
 ### Links:
 [Deployed Application URL]("")
 
-[GitHub Repository URL]("")
+[GitHub Repository URL](https://github.com/marioessig/quizzinator)
