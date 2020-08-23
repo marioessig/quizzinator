@@ -32,6 +32,6 @@ Create an application that players can answer timed questions and have their hig
 ![Website Screenshot](https://github.com/marioessig/quizzinator/blob/master/assets/images/Quizzinator.gif)
 
 ### Links:
-[Deployed Application URL]("")
+[Deployed Application URL](https://marioessig.github.io/quizzinator)
 
 [GitHub Repository URL](https://github.com/marioessig/quizzinator)
