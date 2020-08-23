@@ -9,27 +9,60 @@
 <body>
     <header>
         <h1 class"title">Quizzinator</h1>
-        <h2 class="timer">Seconds Remaining: <span id="timer">60</span></h2>
-        <a href="#highscore">View Leaderboard</a>
+        <h2 class="hidden timer">Seconds Remaining: <span id="timer">60</span></h2>
+        <a href="#leaderboard" id="leaderboard">View Leaderboard</a>
     </header>
 
     <!-- main content -->
     <main>
-        <h2 class="intro-title">Test yourself!</h2>
-        <p> 
-            Challenge yourself on what you know about full-stack programming languages!
+        <!-- add intro to the quiz -->
+        <h2 class="intDiv">Test yourself!</h2>
+        <p class="initial"> 
+            Challenge yourself on what you know about full-stack programming languages.
             <br>
             <br>
-            Keep in mind, once you click on "Quiz Me!" button, the timer will start right away.
+            Keep in mind, once you click on "Quiz Me!" button, the timer will start right away. 
+            <br>
+            You lose <span class="ital-red">3 seconds</span> for each wrong answer!
+            <br>
+            <br>
+            <span>Best Luck!</span>
         </p>
-        <h3 class="end-title">
-            Best Luck!
-        </h3>
+
         <!-- add Quiz Me! button -->
         <button id="quiz-me-btn">Quiz Me!</button>
+
+        <!-- reveal user initial screen for user submission -->
+        <label class="hidden initial" id="userInt-label" for="userInt"> Enter Initials: </label>
+        <input class="hidden initial" id="userInt" name="userInt" type="text">
+
+        <!-- populate a list with JavaScript -->
+        <ul class="hidden" id="leaderboard-list"></ul>
+
+        <!-- set answer buttons in a container to control its alignment -->
+        <section class="btn-container">
+            <!-- answer buttons-->
+            <button class="hidden answer" id="answer1-btn"></button>
+            <button class="hidden answer" id="answer2-btn"></button>
+            <button class="hidden answer" id="answer3-btn"></button>
+            <button class="hidden answer" id="answer4-btn"></button>
+
+            <!-- submit and skip buttons-->
+            <button class="hidden" id="submit-btn"> Submit </button>
+            <button class="hidden" id="skip-btn"> Skip </button>
+
+            <!-- leaderboard screen buttons-->
+            <button class="hidden" id="back-btn"> Go back </button>
+            <button class="hidden" id="clr-btn"> Clear the leaderboard </button>
+        </section>
     </main>
     
-    <footer> &copy; 2020 - Made by Mario E. 🐼</footer>
+    <!-- section to display result of each answer submission -->
+    <section>
+        <p class="hidden" id="results"></p>
+    </section>
+    
+    <footer> &copy; 2020 🐼</footer>
     <script src="assets/js/script.js"></script>
 </body>
 </html>

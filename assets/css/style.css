@@ -22,17 +22,96 @@ header a:hover {
 /* header styles end */
 
 /* main styles start */
-.intro-title, p, .end-title {
+main {
     text-align: center;
+    width: 75%;
+    margin: auto;
+}
+
+main p span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.ital-red {
+
+    color: red;
+}
+
+main button {
+    background: darkblue;
+    color: lightblue;
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px lightblue;
+    padding: 7px;
+}
+
+main button:hover {
+    background: lightblue;
+    color: darkblue;
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px darkblue;
+    padding: 8px;
+}
+
+main .btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .answer {
+    display: block;
+    width: 45%;
+}
+
+#leaderboard-list {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.leaderboard-item {
+    margin-left: 0px;
+    font-size: 25px;
+    background: lightgray;
+    margin: 5px;
+}
+
+#submit-btn, #skip-btn, #back-btn, #clr-btn{
+    margin: 0px 10px;
 }
 /* main styles end */
+
+/* section styles start */
+section {
+    width: 80%;
+    text-align: left;
+    margin: 10px auto;
+}
+section p{
+    border-top: lightgray solid 1px;
+    margin-top: 5px;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    color: gray;
+}
+/* section styles end */
 
 /* footer style start */
 footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 10px;
     width: 100%;
+    border-top: 1px solid blue;
     background-color: lightblue;
 }
 /* footer style end */
+
+/* hiding styles start */
+main .hidden, .hidden {
+    display: none;
+}
+/* hiding styles end */
