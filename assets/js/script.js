@@ -141,9 +141,7 @@ function resetScreen() {
     // update textContent
     timerTimeEl.textContent = "60";
     intDivEl.textContent = "Test yourself!";
-    intEl.textContent = "Challenge yourself on what you know about full-stack programming languages! \r\n";
-    intEl.textContent +="\r\n";
-    intEl.textContent +="Keep in mind, once you click on 'Quiz Me!' button, the timer will start right away. You lose 3 seconds for each wrong answer!";
+    intEl.innerHTML = "<p class='initial'> Challenge yourself on what you know about full-stack programming languages. <br> <br> Keep in mind, once you click on 'Quiz Me!' button, the timer will start right away.  <br> You lose <span class='ital-red'>3 seconds</span> for each wrong answer! <br> <br> <span>Best Luck!</span></p>";
 
     // revert styles after reset
     intDivEl.setAttribute("style", "text-align: center");
