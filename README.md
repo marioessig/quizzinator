@@ -11,7 +11,7 @@ Create an application that players can answer timed questions and have their hig
 ## Challenge Requirements
 
 ### User Story
->AS A coding boot camp student <br>
+>AS A music lover <br>
 >I WANT to take a timed quiz on JavaScript fundamentals that stores high scores <br>
 >SO THAT I can gauge my progress compared to my peers <br>
 
@@ -28,7 +28,7 @@ Create an application that players can answer timed questions and have their hig
 >WHEN the game is over <br>
 >*THEN* I can save my initials and score <br>
 
-### Refactored Webpage Screenshot
+### Webpage Screenshot
 ![Website Screenshot](https://github.com/marioessig/quizzinator/blob/master/assets/images/Quizzinator.gif)
 
 ### Links:
